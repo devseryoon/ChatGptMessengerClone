@@ -14,11 +14,10 @@ const Login = () => {
       {/* 이미지 컴포넌트 컨피그제이에스가서 도메인 우리가 신뢰할 수 있는 적용해놔야 함. */}
       <button
         onClick={() => {
-          signIn("google");
+          signIn("google"); // 구글로 리다이렉트.
         }}
         className="text-white font-bold text-3xl animate-pulse"
       >
-        {" "}
         Sign In to use ChatGPT
       </button>
     </div>
